@@ -1,0 +1,144 @@
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: var(--Very-Dark-Blue);
+    color: #fff;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 17px;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 15% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background: var(--Dark-Blue);
+    padding: 32px;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: inset 0px -190px 200px hsla(223, 14%, 10%, 0.507);
+}
+
+.star{
+    background-color: hsl(218, 14%, 23%);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.box-1 h2{
+    margin-bottom: 10px;
+}
+
+.box-1 p{
+    color: var(--Medium-Grey);
+    margin-bottom: 25px;
+    line-height: 1.5em;
+}
+
+.grid p{
+    background-color: hsl(218, 14%, 23%);
+    padding: 15px;
+    border-radius: 50%;
+    color: var(--Medium-Grey);
+    cursor: pointer;
+}
+
+.grid p:hover{
+    background-color: var(--Orange);
+    color: #fff;
+}
+
+.btn{
+    width: 100%;
+    background-color: var(--Orange);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 1.2em 0;
+    border-radius: 2.4em;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: var(--Orange);
+}
+
+.box-2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box-2 img{
+    margin-bottom: 25px;
+}
+
+.box-2 #comment{
+    background-color: hsl(218, 14%, 23%);
+    color: hsl(25, 91%, 64%);
+    padding: 0.5em 0;
+    border-radius: 1.4em;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.box-2 .text{
+    color: var(--Medium-Grey);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#show{
+    background-color: var(--Light-Grey);
+    color: #fff;
+}
+
+#orange{
+    background-color: var(--Orange);
+    color: #fff;
+}
+
+#d-none{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .container{
+        margin: 35% auto;
+    }
+}

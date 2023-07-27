@@ -21,7 +21,7 @@ body{
     color: #fff;
 }
 
-h2{
+h1{
     font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ h2{
     margin-bottom: 15px;
 }
 
-.box-1 h2{
+.box-1 h1{
     margin-bottom: 10px;
 }
 
@@ -69,7 +69,9 @@ h2{
 
 .grid p{
     background-color: hsl(218, 14%, 23%);
-    padding: 15px;
+    width: 55px;
+    height: 55px;
+    padding: 16px;
     border-radius: 50%;
     color: var(--Medium-Grey);
     cursor: pointer;
@@ -80,17 +82,17 @@ h2{
     color: #fff;
 }
 
-.btn{
-    width: 100%;
+input[type="submit"]{
     background-color: var(--Orange);
     border: none;
     cursor: pointer;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding: 1.2em 0;
+    padding: 1.2em;
     border-radius: 2.4em;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .btn:hover{
@@ -121,11 +123,6 @@ h2{
     color: var(--Medium-Grey);
     margin-top: 15px;
     margin-bottom: 20px;
-}
-
-#show{
-    background-color: var(--Light-Grey);
-    color: #fff;
 }
 
 #orange{

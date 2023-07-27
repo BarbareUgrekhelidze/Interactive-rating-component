@@ -1,28 +1,15 @@
 const numbers = document.querySelectorAll('.number');
-numbers.forEach(number => number.addEventListener('mouseover', addShow));
-numbers.forEach(number => number.addEventListener('mouseout', removeShow));
 numbers.forEach(number => number.addEventListener('click', runEvent));
-
-function addShow(e){
-    e.preventDefault();
-    e.target.previousElementSibling.setAttribute('id', 'show');
-}
-
-function removeShow(e){
-    e.preventDefault();
-    e.target.previousElementSibling.removeAttribute('id', 'show');
-}
+const button = document.querySelector('.btn').addEventListener('click', btnClick);
 
 function runEvent(e){
-    e.preventDefault();
-    e.target.setAttribute('id', 'orange');
-    if(e.target.nextElementSibling.id = 'orange'){
-        e.target.nextElementSibling.removeAttribute('id', 'orange')
-    };
-    
-}
+     removeAttribute();
+     e.target.setAttribute('id', 'orange');
+};
 
-const button = document.querySelector('.btn').addEventListener('click', btnClick);
+function removeAttribute(){
+    numbers.forEach(number => number.removeAttribute('id', 'orange'));
+};
 
 function btnClick(e){
     e.preventDefault();

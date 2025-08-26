@@ -37,4 +37,4 @@ Users should be able to:
 ## Author
 
 - Website - [Interactive rating component](https://BarbareUgrekhelidze.github.io/Interactive-rating-component/)
-- Frontend Mentor - [@barbareUgrekhelidze](https://www.frontendmentor.io/profile/barbare999)
+- Frontend Mentor - [@BarbareUgrekhelidze](https://www.frontendmentor.io/profile/BarbareUgrekhelidze)

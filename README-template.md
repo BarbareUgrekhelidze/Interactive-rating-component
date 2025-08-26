@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://github.com/barbare999/Interactive-rating-component.git). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://github.com/BarbareUgrekhelidze/Interactive-rating-component.git). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/barbare999/Interactive-rating-component.git)
-- Live Site URL: [Add live site URL here](https://barbare999.github.io/Interactive-rating-component/)
+- Solution URL: [Add solution URL here](https://github.com/BarbareUgrekhelidze/Interactive-rating-component.git)
+- Live Site URL: [Add live site URL here](https://BarbareUgrekhelidze.github.io/Interactive-rating-component/)
 
 ## My process
 
@@ -36,5 +36,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Interactive rating component](https://barbare999.github.io/Interactive-rating-component/)
+- Website - [Interactive rating component](https://BarbareUgrekhelidze.github.io/Interactive-rating-component/)
 - Frontend Mentor - [@barbareUgrekhelidze](https://www.frontendmentor.io/profile/barbare999)
